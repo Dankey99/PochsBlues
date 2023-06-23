@@ -1,4 +1,4 @@
-USE games;
+USE gamesdb;
 
 ALTER TABLE orders
-ADD order_id INT;
+ADD orders INT;
