@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS orders;
 
 CREATE TABLE IF NOT EXISTS orders (
 order_id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
-customer_id INT NOT NULL,
 product_id INT NOT NULL,
-date_placed DATE NOT NULL
+date_placed DATE NOT NULL,
+FOREIGN KEY (Product_id) REFERENCES products(product_id)
 );
