@@ -1,0 +1,5 @@
+em {color: blue;}
+ul li {color: red;}
+section > p {color: limegreen;}
+h2 + p {color: turquoise;}
+footer ~ p {background-color: brown; font-size: smaller;}
